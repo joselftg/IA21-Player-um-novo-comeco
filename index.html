@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head> 
+    <meta charset="utf-8">
+    <title>Player</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        div.ia21-player{
+            border: 1px solid black;
+        }
+        div.ia21-player .controllers{
+            border-top: 1px solid black;
+        }
+            div.ia21-player div.controllers button.play-pause{
+                background-color: transparent;
+                border : 0 none;
+                border-right: 1px solid black;
+                cursor: pointer;
+            }        
+
+            div.ia21-player div.controllers div.dragbar{
+                flex-grow: 1;
+            }
+    </style>
+<body>
+    <div class="ia21-player">
+        <video src=""></video>
+        <div class="controllers">
+            <button class="play-pause"></button>
+            <div class="draggable"></div>
+        </div>
+        <div class="timer">
+            00:00
+    </div>
+    <div class="drag-br volume"></div>
+    <div class="draggable"></div>
+
+    </div>
+    
+</body>
+</html>
