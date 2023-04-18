@@ -13,7 +13,7 @@
         }
 
         div.ia21-player {
-            border: 2px solid black;
+            border: 2px solid rgb(0, 0, 0);
             width: 720px;
             display: flex;
             flex-direction: column;
@@ -72,6 +72,7 @@
         <div class="contraillers">
             <button class="player-pause">
                 ▶
+            </butto> 
             </button>
             <div class="dragbar timeline">
                 <div class="draggable"></div>
@@ -107,7 +108,7 @@
                 /*seg = timer.innerText - 60*/
                 if (timer.innerText >= 60) {
                     min = Math.floor(timer.innerText/60)
-                    seg = Math.floor(timer.innerText%60)
+                    seg = Math.floor(timer.innerText%60)""
                     timer.innerText = min + ":" + seg
                 }
 
